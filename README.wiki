@@ -1,0 +1,18 @@
+= Python Version of Bible =
+
+== Description ==
+=== What is PVB about? ===
+PVB (Python Version of Bible) is a translation of Bible written in Python. It contains the same core messages and stories as Bible, but having Python logic and structures.
+
+=== What is the purpose of PVB? ===
+PVB's purpose is to help people to understand Bible. Lots of people are having a hard time reading Bible, due to they can't understand the logic.
+
+=== Why will PVB be beneficial? ===
+Python makes everything easier to understand, if you can understand Python, you can understand Bible!
+
+=== Why would I create this? ===
+During VBS training, I've been told not to use "church words" to non-christians, because most of them never read Bible before. Then I was wondering how to help them get to know Bible faster and better, so I came up with this!
+
+== Contents ==
+=== Old Testament ===
+[https://github.com/NuclearReactor314/python_bible/tree/main/Genesis/ Genesis]
