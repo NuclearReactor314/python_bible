@@ -1,4 +1,4 @@
-= Python Version of Bible =
+= PVB (Python Version of Bible) - CODE THE BIBLE =
 
 == Description ==
 === What is PVB about? ===
