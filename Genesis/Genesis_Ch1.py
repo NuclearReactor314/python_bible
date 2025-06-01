@@ -1,63 +1,63 @@
-Universe = None
-console.log("Initializing creation...")
+print("Initializing creation...")
 
-# “let there be light”
+# "Let there be light."
 light = True
-console.log("Light created.")
+print("Light has been created.")
 
-# defined day and night
-def separate(light):
-    return "Day" if light else "Night"
+# Define day and night
+def separate(light_on: bool) -> str:
+    return "Day" if light_on else "Night"
 
 Day1 = {"light": separate(True)}
-console.log("Day 1:", Day1)
+print("Day 1:", Day1)
 
-# “let there be sky”
+# "Let there be sky."
 sky = True
-console.log("Sky created.")
+print("Sky has been created.")
 
-# Created land and ocean
+# Create land and ocean
 land = "Earth()"
 ocean = "Sea()"
-console.log("Land and ocean created.")
+print("Land and ocean have been created.")
 
-# Call generateVegetation()
-def generateVegetation():
+# Define a function to generate vegetation
+def generate_vegetation():
     return ["Grass", "Trees", "Fruit"]
 
-plants = generateVegetation()
-console.log("Plants created:", plants)
+plants = generate_vegetation()
+print("Plants have been created:", plants)
 
-# Created Sun, Moon, Stars
+# Create the sun, moon, and stars
 sun = "Sun()"
 moon = "Moon()"
 stars = ["Star()" for _ in range(1000)]
-console.log("Heavenly lights initialized.")
+print("Heavenly lights have been initialized.")
 
-# “let there be life in the water and sky”
+# "Let there be life in the water and the sky."
 fish = "Fish()"
 birds = "Birds()"
-console.log("Creatures of water and air created.")
+print("Creatures of the water and the air have been created.")
 
-# “let there be animals on land”
+# "Let there be animals on the land."
 animals = ["Lion()", "Elephant()", "Dog()"]
-console.log("Land animals created:", animals)
+print("Land animals have been created:", animals)
 
-# “let there be Humans in My image”
+# "Let there be humans in My image."
 class Human:
-    def __init__(self, name):
+    def __init__(self, name: str):
         self.name = name
         self.free_will = True
 
 adam = Human("Adam")
 eve = Human("Eve")
-console.log("Humans created:", adam.name, "and", eve.name)
+print("Humans have been created:", adam.name, "and", eve.name)
 
-# Testing:
+# Combine everything into the Universe
 Universe = [Day1, sky, land, ocean, plants, sun, moon, stars, fish, birds, animals, adam, eve]
-if all(Universe):
-    console.log("Creation successful. All systems functional.")
 
-# Day 7
+if all(Universe):
+    print("Creation successful. All systems are functional.")
+
+# Day 7 - rest
 rest = True
-console.log("System paused. Creator is now resting.")
+print("System paused. The Creator is now resting.")
