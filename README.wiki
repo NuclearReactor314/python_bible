@@ -16,3 +16,4 @@ During VBS training, I've been told not to use "church words" to non-christians,
 == Contents ==
 === Old Testament ===
 [https://github.com/NuclearReactor314/python_bible/tree/main/Genesis/ Genesis]
+[https://github.com/NuclearReactor314/python_bible/tree/main/Exodus/ Exodus]
